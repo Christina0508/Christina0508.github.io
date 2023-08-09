@@ -1,601 +1,1739 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog of Christina">
 <meta property="og:url" content="http://yoursite.com/page/2/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Blog of Christina">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Christina">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="R">
+<meta property="article:tag" content="Economics">
+<meta property="article:tag" content="thoughts">
 <meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/page/2/"/>
+
+
+
+
+
+  <title>Blog of Christina</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
 <meta name="generator" content="Hexo 4.2.1"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
   
-    <article id="post-Decision-tree" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/05/30/Decision-tree/" class="article-date">
-  <time datetime="2021-05-30T08:05:39.000Z" itemprop="datePublished">2021-05-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/30/Decision-tree/">Decision tree</a>
-    </h1>
+    
   
 
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog of Christina</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/08/01/Comentary%20about%20one%20article/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/08/01/Comentary%20about%20one%20article/" itemprop="url">Comentary</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-08-01T15:42:04+08:00">
+                2021-08-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>In order to better organize and read statistics, I began to learn coding. I combined my practices with the hobby in watching football games, as I trained my modeling ability by letting my programs predict the results of football matches.<br>To provide myself with a fundamental start, I carefully read about the visualization of images and the modelling method of decision trees on the website Scikit-Learn. Decision trees for me are great graphical methods of calculating the probability of each branch of the tree on the basis of knowing the probability of each situation; more importantly, its logics were the most straightforward for coding starters like me. I learned to convert the data of a group of teams’ previous games into the form of export_graphviz decision tree. Then, I used a large number of data form the statistics to train the decision tree and the remaining part to test the quality of it. In essence, it is a problem of probability calculation, but the visualization of the computer makes the originally ethereal probability become intuitive. This deepens my interest in continuing to learn coding, which can help me to use mathematics conveniently and express mathematics in a simple language. science and led me to realize the application value of statistics and modelling. </p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <pre><code>Source of the article: http://www.chinadaily.com.cd
+Date the commentary written: July 31, 2020
+Words count of the commentary: 803 words
+Unit of the syllabus to which the article relates: Macroeconomics
+Key concepts: tax, recover</code></pre><hr>
+<pre><code>                              Article
+Tax    revenue    shows    signs    of    recovery</code></pre><p>By ZHOU LANXU | CHINA DAILY | Updated: 2020-07-18 07:58<br>A bank teller counts RMB banknotes at a bank branch in Hai’an of East China’s Jiangsu province, on June 24, 2020. [Photo/Sipa]<br>China’s fiscal revenue, which reported its first growth this year in June, returned to expansionary territory, enabling stronger fiscal support for the economy over the second half, experts said on Friday.<br>The government’s general budgeted revenue grew by 3.2 percent year-on-year last month, marking the first expansion this year, thanks to the recovery in business activity and imports, the Ministry of Finance said on Friday.<br>Fiscal revenue has been in a rally since the second quarter of the year as the economy staged comeback growth from the shutdowns brought by the COVID-19 outbreak, said Liu Jinyun, an official with the ministry.<br>Over the first half, fiscal revenue contracted by 10.8 percent year-on-year to 9.62 trillion yuan ($1.37 trillion), narrowing from 14.3 percent for the first quarter, according to Liu.<br>The year-on-year slide in the value-added tax revenue, the biggest contributor to the country’s national coffer, narrowed by 19.1 percent for the January-June period, versus 23.6 percent for the first three months as production activities in the industrial sector continued to recover, Liu said.<br>“The positive growth in fiscal revenue is a reflection of the nation’s steady economic recovery as well as the stable operation of market entities,” said Yang Weiyong, an associate professor of economics at the University of International Business and Economics in Beijing.<br>With the economy continuing to recover in the second half, fiscal revenue is expected to further rise and increase funds available for the government to support the economy, Yang said.<br>The country reported a 1.6 percent year-on-year contraction in GDP for the first half of the year on Thursday, recovering from the 6.8 percent plunge for the first quarter, while analysts expect China’s economic growth to come in at about 2 to 3 percent for the whole year.<br>Luo Zhiheng, former chief macroeconomic researcher at the Evergrande Research Institute, said the proactive fiscal policy has played a key role in facilitating the economic recovery, with targeted tax and fee cuts and relatively strong fiscal expenditure focused on combating the contagion, ensuring people’s livelihood and funding major construction projects.<br>The country’s fiscal spending in the first six months fell by 5.8 percent from a year earlier to 11.64 trillion yuan, slower than the drop in revenue, according to the ministry.Looking into the second half, Luo said the country is expected to accelerate fiscal spending and shore up domestic demand, with the recovery in fiscal revenue and money raised by government<br>bonds providing more funds.<br>China has decided to issue 1 trillion yuan in special treasuries for COVID-19 control efforts this year. As of Thursday, a total of 720 billion yuan of the bonds had been issued, with the rest to be issued by the end of this month, the ministry said.<br>The country has also stepped up the issuance of the projected 3.75 trillion yuan worth of special local government bonds, which are mainly to fund infrastructure investment. A total of 2.24 trillion yuan worth of the bonds were issued as of Tuesday, with 85 percent of the money raised already be spent, the ministry said.<br>“The Chinese economy still faces the risk that the global spread of COVID-19 may hit external demand, threatening employment and the survival of small and medium-sized enterprises.<br>Extending supports to these areas will be the focus of fiscal policy in the coming months,” Luo said.<br>Nonetheless, analysts said it is unlikely that China will elevate the quota of special treasuries, given the need to prevent excessive stimulus from causing risk.<br>“To prevent the distortion in resource allocation, it is more advisable for China to further the tax and fee cut measures than issue more bonds to fund government-led investment,” Yang said.<br>                                            Commentary<br>                     How reducing tax revenue to help recover<br>Because of the rise of the novel coronavirus in the world, the recovery is the most important aim of China, in order to recover, linking to the concept tax which means that a compulsory contribution to state revenue, levied by the government on workers’ income and business profits, or added to the cost of some goods, services, and transactions.I want to discuss whether it’s helpful for recovery and why it offers a helping hand to recover.<br>From the news, we can get that “Over the first half, fiscal revenue contracted by 10.8 percent year-on-year to 9.62 trillion yuan ($1.37 trillion), narrowing from 14.3 percent for the first quarter.”In this way, we can know that the fiscal revenue of the first quarter of 2020 is more than that of the revenue of the second quarter. This may because the indirect tax and direct tax all decreases. Firstly, government gives back some tax to people that are directly charged from their salaries. Secondly, government may also reduce the prices of products especially the prices of<br>necessities. In this way, people will be more affordable for these products. As a result, people can balance their lives during the novel coronavirus.<br>—<img src="https://s1.ax1x.com/2020/08/01/a81iWD.png" alt="a81iWD.png"><br>From Fig1，government imposes a tax on the supply . The supply curve shifts to the left. In addition, many people cannot work during the virus period and some people even lose their jobs, so the demand for people to buy things will decrease because they may prefer to save their money as they have no confidence for the future. The demand curve will also shift to the left. When quantity is certain, the tax revenue is the quantity multiply the price difference, so the tax revenue before the coronavirus is tax revenue 1 which is the dark bule block, and the tax revenue during the virus is the tax revenue 2 which is the light blue block.<br>In July, the fiscal revenue of China showed the first time to recover, this was because the recovery of imports and the recovery of business activity. From the news, we can get that “China has decided to issue 1 trillion yuan in special treasuries for COVID-19 control efforts this year. As of Thursday, a total of 720 billion yuan of the bonds had been issued, with the rest to be issued by the end of this month.” In order to support the further recovery, the government has issued 1 trillion yuan in special treasuries to help state-owned business. Issuing money cannot help recovering very well. Government help these companies, so these companies can continue to produce instead of going bankrupt. This also decreases the costs of the products. As a result, the prices of products will decrease, people will be more affordable for them. The economic growth can grow. However, issuing money cannot help recovering very well, because of the virus, although people can be more affordable for products, they may have no confidence for the future, and they will save the money instead of spending money. As a result, money of government has wasted and has no effects. In this way, there is little help for recovery. In addition, issuing the money may lead the distortion in resource allocation because it’s difficult for the government to estimate how much money to give which sector, so it’s difficult to spend money effectively.<br>From the news, the writer points out that reducing tax revenue is a better way to help recover than issuing the money to help business activities. If government reduces the tax revenue, not only the prices of the products reduce, but also people’s salaries increase (both direct tax and indirect tax). In this way, people will have money to afford products. Although we may face the same problem, that’s people with no confidence about future, government may face a different situation. Imposing tax is a method which is used in the long run. People can’t get much money from tax immediately. As a result, they may choose to save money recently, but they will spend money in long run.<br>In the Fig2, if government reduces the tax revenue, people will have the incentives to buy things. In this way, people’s demand will increase, so the demand curve shifts to the right.<br><a href="https://imgchr.com/i/a813lQ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/08/01/a813lQ.png" alt="a813lQ.png"></a><br>In conclusion, issuing the money is easy to get to lead the distortion in resource allocation, so reduce tax revenue may be is a more reasonable method to help recovery. However, is very difficult for people to get much money through reducing the tax, so in long run this method may be is a good way to help recovery.</p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2021/05/30/Decision-tree/" data-id="cl6t2i5yc0005gsgt9bl6ect7" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python-and-data/" rel="tag">Python and data</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-About-myself" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/05/22/About-myself/" class="article-date">
-  <time datetime="2021-05-22T06:26:07.000Z" itemprop="datePublished">2021-05-22</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/05/30/Decision-tree/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/22/About-myself/">Other people&#39;s reponse to me</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/05/30/Decision-tree/" itemprop="url">Decision tree</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-30T16:05:39+08:00">
+                2021-05-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>I’m a person who is responsible, which is exactly the comment from my family and my friends. Since I was young, I treasure the successful completions of all tasks in hand. I always completed them ahead of the deadline for more time to enhance on the qualities.<br>In the last cooperative project, as the long work period diminished their worries, some of my teammates forgot to steadily complete their portions and found it difficult to make a high-qualified piece around the submission deadline. I re-designed the workload distribution for the enture group, and kept reminding my members of the upcoming group-deadlines to leave enough time to discuss on the project’s progress and amend the work distribution accordingly. As the project was eventually saved from a rushed work, I utilized the remaining time to do more to enhance its quality. I brought the work to my teacher and asked for her advice to make live edits accordingly.<br>The eventual outcome was satisfactory, while my team members all think my progress have helped our teamwork a lot. This work was very difficult for me, because I had to both ensure the qualities and preserve an unaggressive attitude to not harm the relationships between me and my teammakes. Sometime when I got mad with my partners, I tried to calm down and tell them their issues patiently. Whenever I wanted to give up, the strong sense of responsibility motivated me to work harder. </p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>In order to better organize and read statistics, I began to learn coding. I combined my practices with the hobby in watching football games, as I trained my modeling ability by letting my programs predict the results of football matches.<br>To provide myself with a fundamental start, I carefully read about the visualization of images and the modelling method of decision trees on the website Scikit-Learn. Decision trees for me are great graphical methods of calculating the probability of each branch of the tree on the basis of knowing the probability of each situation; more importantly, its logics were the most straightforward for coding starters like me. I learned to convert the data of a group of teams’ previous games into the form of export_graphviz decision tree. Then, I used a large number of data form the statistics to train the decision tree and the remaining part to test the quality of it. In essence, it is a problem of probability calculation, but the visualization of the computer makes the originally ethereal probability become intuitive. This deepens my interest in continuing to learn coding, which can help me to use mathematics conveniently and express mathematics in a simple language. science and led me to realize the application value of statistics and modelling. </p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2021/05/22/About-myself/" data-id="cl6t2i5yb0004gsgt8yt77fhn" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/About-myself/" rel="tag">About myself</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-My-biggest-academic-achievement" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/05/01/My-biggest-academic-achievement/" class="article-date">
-  <time datetime="2021-05-01T10:20:28.000Z" itemprop="datePublished">2021-05-01</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/05/22/About-myself/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/01/My-biggest-academic-achievement/">My biggest academic achievement</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/05/22/About-myself/" itemprop="url">Other people's reponse to me</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-22T14:26:07+08:00">
+                2021-05-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>​    Talk about my biggest academic achievement ,I’d like to describe an exam in my junior high school which I ranked the twentieth among eight hundred students in my school.</p>
+      
+
+      
+        
+          
+            <p>I’m a person who is responsible, which is exactly the comment from my family and my friends. Since I was young, I treasure the successful completions of all tasks in hand. I always completed them ahead of the deadline for more time to enhance on the qualities.<br>In the last cooperative project, as the long work period diminished their worries, some of my teammates forgot to steadily complete their portions and found it difficult to make a high-qualified piece around the submission deadline. I re-designed the workload distribution for the enture group, and kept reminding my members of the upcoming group-deadlines to leave enough time to discuss on the project’s progress and amend the work distribution accordingly. As the project was eventually saved from a rushed work, I utilized the remaining time to do more to enhance its quality. I brought the work to my teacher and asked for her advice to make live edits accordingly.<br>The eventual outcome was satisfactory, while my team members all think my progress have helped our teamwork a lot. This work was very difficult for me, because I had to both ensure the qualities and preserve an unaggressive attitude to not harm the relationships between me and my teammakes. Sometime when I got mad with my partners, I tried to calm down and tell them their issues patiently. Whenever I wanted to give up, the strong sense of responsibility motivated me to work harder. </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/05/01/My-biggest-academic-achievement/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/05/01/My-biggest-academic-achievement/" itemprop="url">My biggest academic achievement</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-01T18:20:28+08:00">
+                2021-05-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>​    Talk about my biggest academic achievement ,I’d like to describe an exam in my junior high school which I ranked the twentieth among eight hundred students in my school.</p>
 <p>​    As Chinese tradition,to be a good student , the most important thing is getting high marks in the exams,that is because in China,the end of the junior high school exams are the only and the most important factor for the entrance of senior high school.In this way, at that time for me the most important thing is to get high marks in the exams and my dream is of course is to do well in the exams and get into a good senior high school.</p>
 <p>​    I’d like to talk about one of the mid-term exams.Before that exam,I did very bad in some previous exams,that makes me feel afraid of that exam.I could not come up with the answer why I couldn’t get high marks in the exams.During that period,I felt annoyed about myself.Why I make low level mistakes frequently?I worked very hard ,but I just couldn’t’t stop myself from making stupid mistakes.I thought that I couldn’t overcome that time.In this way,I felt even nervous when the exam was going to begin.I found that my heart speed up and just like there was a deer running fast in my heart.When the teacher came into the classroom, I even felt my hand which held the pen was trembling.I was afraid that I would get a bad mark again.</p>
 <p>​    I needed to calm down,so I just told myself to calm down and I could achieve the goal and I could get high marks.I repeated these words in my heart and tried to give myself confidence.This way helped me and I calm down slowly and decided to try my best during the exam.That was the maths exam and I had make a lot of stupid mistakes in maths exam.I could work out the hard question, but I just went wrong in simple questions.So this time,I tried very hard and reminded myself to be careful and calm down many times.I thought that I put all my energy on that exam and i felt a stone in my heart went down and I was tired out when the exam finished.</p>
 <p>​    Luckily,I got a high mark in that exams and I have a high rank.However,I don’t think that that success was because of my fortune and I also don’t want to say that success was because of my efforts.Admittedly,my efforts was one of the factor,but the most essential factor was the confidence.Through this success, I have learned that the only problem was in my heart.I wanted to get a good result in a haste and this made me made too many simple mistakes.Another reason is that I was not confident enough,because of the previous failure and I even couldn’t believe that I have the capacity to get success in the exams .</p>
 <p>​    I thought this was my biggest academic achievement not because I have got a good rank and high marks in that exams.In fact, this was only a small exam,as it was not important and cannot decide my future and make small influence to me.However,during that event,I have found the weakness of my study life and I could not overcome it for a long time.That was the first time I have beat it.So this have told me that I could overcome it, and nothing is possible if i try and find a right method.Although I haven’t beat it forever and in fact I have met such similar occasions for many times since I got success in that exam.I thought that was due to my own personality and one ‘s personality is not easy to change.But this does not matter at all, i could try over and over again,i could overcome it forever in the future someday because definitely I will find an appropriate and effective way.</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2021/05/01/My-biggest-academic-achievement/" data-id="cl6t2i5yi000igsgt44jbd34m" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/About-myself/" rel="tag">About myself</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Planning-essay" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/02/03/Planning-essay/" class="article-date">
-  <time datetime="2021-02-03T15:24:52.582Z" itemprop="datePublished">2021-02-03</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/02/03/Planning-essay/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/02/03/Planning-essay/">Planning-essay</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/02/03/Planning-essay/" itemprop="url">Planning an essay</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-02-03T23:24:52+08:00">
+                2021-02-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <hr>
-<p>title: Planning an essay<br>date: 2021-02-03 23:24:52<br>tags: a topic about economic</p>
-<p>Topic: Economics</p>
+      
+
+      
+        
+          
+            <p>Topic: Economics</p>
 <p>Issue: The effects of  profits on markets </p>
 <p>Themes: Politics:Is there a difference of the effects if the countries have different political systems?<br>               Ethics: Is it right to let business do what they want to gain profits without regulations?<br>               Technology: Is it possible that business can gain more or less profits if they use technology?</p>
 <p>Different perspectives:The profits the only business of business.<br>                                    There are many social business of the business.</p>
 <p>Focus on the debete: What ethical benefits of regulating profits can i find?<br>                                   What political drawbacks in gaining the profits?</p>
 <p>Generate a question:Whether  profits can be  the only factor of the business or there are many other factors can influence the business.</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2021/02/03/Planning-essay/" data-id="cl6t2i5yn000vgsgt2tw5cr84" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Summary about Python activity" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/26/Summary%20about%20Python%20activity/" class="article-date">
-  <time datetime="2020-09-26T15:05:02.000Z" itemprop="datePublished">2020-09-26</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/26/Summary%20about%20Python%20activity/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/26/Summary%20about%20Python%20activity/">Summary about python activity</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/09/26/Summary%20about%20Python%20activity/" itemprop="url">Summary about python activity</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-09-26T23:05:02+08:00">
+                2020-09-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>作为一个编程小白，我在大概三个月前才开始学习python。起初的初衷是因为python如此的火爆，已经成为现如今流行的存在。由于未来专业方向的缘故，python的学习能为我未来的学习省下许多的力气。首先，Python是一门解释性语言，这是他的特点，这让Python似乎与“高效”无缘。然而你知道吗，著名的Instagram服务器就是是用Python+Django搭建的，而且月活用户超过7亿。要知道Python+Django是一个以速度慢著称的web框架，一定是python的某个优点深深的吸引了他们。是的，这个优点就是，开发效率高。</p>
+      
+
+      
+        
+          
+            <p>作为一个编程小白，我在大概三个月前才开始学习python。起初的初衷是因为python如此的火爆，已经成为现如今流行的存在。由于未来专业方向的缘故，python的学习能为我未来的学习省下许多的力气。首先，Python是一门解释性语言，这是他的特点，这让Python似乎与“高效”无缘。然而你知道吗，著名的Instagram服务器就是是用Python+Django搭建的，而且月活用户超过7亿。要知道Python+Django是一个以速度慢著称的web框架，一定是python的某个优点深深的吸引了他们。是的，这个优点就是，开发效率高。</p>
 <p>Python is a programming language that lets you work quickly and integrate systems more effectively.<br>   –摘自Python官网<a href="http://www.python.org" target="_blank" rel="noopener">www.python.org</a></p>
 <p>由于在此之前，可以说我几乎从未接触过编程，所以在进行时，可是说是比较艰难，而且由于在平时的学习中几乎用不到编程，所以我练习的机会非常的少，所以对于知识点的运用非常的缺乏。经过了几乎一个暑假的荒废，我已经忘了很多的知识，所以抱着来唤醒回忆的目的来参加这个活动。</p>
 <p>这个活动的流程主要是使用python的语言来分析博主的情感状态，这是用数据分析的方法来获得准确的情感状态。首先拿到这个题目的时候是我非常是一头雾水的，毫无头绪，因为我并不知道这是让我们干什么。还好有老师给我们分析这个题目，这个题目主要就是把单词和符号分离，然后把所有的句子分析归类，来找到表达情感状态的单词，从而来表达人物的情感状态。</p>
 <p>在一开始，我只能先看老师的演示程序来试图理解这个分析的流程。通过程序的报错来发现问题，渐渐的，我开始慢慢回忆一些学过的知识点，所以我翻看书来回忆学过却遗忘的知识点，根据书上的例子来运用到我们的题目中去，我发现可以有效的回忆和使用以前遗忘的知识点来编写程序了。但是由于重新拾起的缘故，所以我在进行得过程中出现了很多无法自己解决的报错问题，在学长的细心指导下，我才能一直畅通的进行下去。</p>
 <p>通过这次的活动，让我重新温习了一些已经遗忘了的知识。python是一门需要练习的学问，想要能够完美的学习会python，光靠老师的讲解和书上例题的演示是远远不够的，只有不断的练习巩固和操练才能真正的掌握。由于平时的学业，能够使用到python 的时机也是非常的少的，这样的活动不仅让我能巩固我的编程知识，还让我来认识和了解到大学的python作业是什么样的，对于我未来的申请肯定是有很大帮助的。我希望我能够多参加这样的活动，让我的python知识不是只存在于书本而是真正的对我起到发展性的作用。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/26/Summary%20about%20Python%20activity/" data-id="cl6t2i5yn000xgsgt3k7wamcg" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python-and-data/" rel="tag">Python and data</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Summary about first EV club" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/26/Summary%20about%20first%20EV%20club/" class="article-date">
-  <time datetime="2020-09-26T04:11:08.000Z" itemprop="datePublished">2020-09-26</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/26/Summary%20about%20first%20EV%20club/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/26/Summary%20about%20first%20EV%20club/">Summary about EV club</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/09/26/Summary%20about%20first%20EV%20club/" itemprop="url">Summary about EV club</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-09-26T12:11:08+08:00">
+                2020-09-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>As I have went into the AS，this is the time of me to be the leader of one club. The words I want to say is the club I set this year-the eight-valley club.</p>
+      
+
+      
+        
+          
+            <p>As I have went into the AS，this is the time of me to be the leader of one club. The words I want to say is the club I set this year-the eight-valley club.</p>
 <p>I want to record the activity we took last week, and this was the first time I had one club activity as the leader. This club was set to do the commercial program and the central idea of our club is new retail.</p>
 <p>During the first activity, we have the about three parts. The first part is to introduce our club culture and the logo of our club. The second part is to let students to introduce themselves and know about each other together. The third part is to introduce them the idea of the new retail and this can help them know about our club better and give a better performance in the later club activities. Then, we gave students the tasks they need to do due to the next club activity.</p>
 <p>Because I haven’t had any experience before, and I found that I have some problems in this activity. First of all, the problem of the facilities. Our principal required us to put our electronic equipment in his office. Because this was the first time, I didn’t know that I have to take it at the nine period. I thought that he will go home at the same time after school. As a result, my laptop was locked in his office. Then, during the time when students introduce themselves, they felt very shy, so this part wasn’t so successful. In addition, during the time of the we introduce our club because we waste some time to find the facilities. As a result, we have to rush the introduction, so I think our club members didn’t know our club very clearly.</p>
 <p>Form the first activity, I decided to do some measures to improve the quality of our activity. To take the facility in time is really important. Then, to introduce our club again during the second activity in order to let our members to know the club better. Then, setting more interesting games to let them know each other well.  </p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/26/Summary%20about%20first%20EV%20club/" data-id="cl6t2i5yq0013gsgt46adcuj7" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Summary-about-different-activities/" rel="tag">Summary about different activities</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-A peom for ming tomb" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/12/A%20peom%20for%20ming%20tomb/" class="article-date">
-  <time datetime="2020-09-12T15:34:39.844Z" itemprop="datePublished">2020-09-12</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/12/A%20peom%20for%20ming%20tomb/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/12/A%20peom%20for%20ming%20tomb/">A peom for ming tomb</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/09/12/A%20peom%20for%20ming%20tomb/" itemprop="url">A peom for ming tomb</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-09-12T23:34:39+08:00">
+                2020-09-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <hr>
+      
+
+      
+        
+          
+            <hr>
 <p>title: A peom for ming tomb<br>date: 2020-09-12 23:34:39<br>tags: A peom for ming tomb<br>— 殊年仍见梅依旧<br>   春风送暖，寒梅犹安。<br>梅山风景仍如常，衬得明皇还风光。<br>  此年殊哉，祥瑞之景恰映芳。<br>  此年殊哉，只见梅山独寂凉。<br>梅视之，惟叹哉，天灾国祸会随江。<br>春日尽，运将来，只因吾国当自强。<br>                              ——诗歌原创<br>注释：殊年两层含义，第一层指2020本是祥瑞之年，非常难得，第二层指疫情的来临。<br>记2020初新型冠状病毒，借用梅花—————梅花山在明孝陵旁边<br>诗词大意：春天来了，寒梅初放，仍和往年一般，让明皇熠熠生辉，但是今天的梅花山却空无一人，唯有梅花独立。2020是特殊的一年，2020是很难遇见的祥瑞之年。又是特殊的一年，遇见了疫情爆发。梅视之—–借物喻人，指人的感情，天灾国祸必定会随江水滚滚而去，没有别的原因，只是因为我们中国当自强。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/12/A%20peom%20for%20ming%20tomb/" data-id="cl6t2i5y70001gsgt5r836cpy" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Summary about my drawing courses" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/08/22/Summary%20about%20my%20drawing%20courses/" class="article-date">
-  <time datetime="2020-08-22T11:47:43.000Z" itemprop="datePublished">2020-08-22</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/22/Summary%20about%20my%20drawing%20courses/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/22/Summary%20about%20my%20drawing%20courses/">Summary about my drawing courses</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/08/22/Summary%20about%20my%20drawing%20courses/" itemprop="url">Summary about my drawing courses</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-08-22T19:47:43+08:00">
+                2020-08-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>I have kept drawing since I was only a little girl. I always kept drawing as one hobby for myself and I always sticked to this hobby until I entered the ninth grade.</p>
+      
+
+      
+        
+          
+            <p>I have kept drawing since I was only a little girl. I always kept drawing as one hobby for myself and I always sticked to this hobby until I entered the ninth grade.</p>
 <p>When I entered the eighth grade, I was very busy with my study and I not only had to have many courses in the school, but also need to take extra courses during the free time. As a result, I didn’t keep my frequency to go drawing courses once a week and I only went to there through the frequency of about two weeks once or even three weeks once. In this way, obviously, I didn’t get much practice and I became even lazier after that year. Since I entered the ninth grade and I became much busier of my study and I even couldn’t find any time to go drawing. Then, a second time I found one excuse for myself. I told myself that I would go and attend the courses if I could find any time free. However, the fact is that i found more time to finish my homework, my efficiency is lower than before I was. As a result, I couldn’t find any time free to attend the courses.</p>
 <p>During this summer holiday, I haven’t taken any courses in the last one year and I found the students around me all have their hobbies. Then, I realized that I should have my own hobby as well. I decided to pick up my hobby and took the drawing courses and always sticked to it. So, I tried to finish my work and found some time to take the courses. However, when I took the course for the first time and then I felt that it was really struggling for me to draw as before, as I have forgotten about the skills I learnt before and it couldn’t find any fulfillment from the course again. I had an idea to give up it and I didn’t to waste my time anymore. However, my teacher told me that if i tried to practice for some lessons, I would find that It didn’t forget about anything, I just haven’t practiced it for a long time. As I have learned it for so many years before, I have a very good basic training and it will be very simple for me to pick up it very soon.</p>
 <p>Then, a really amazing thing happened during the second lesson. When I just drawn myself during that lesson. This maybe something that seems to be unbelievable, but it was true that I suddenly learned that how to draw ,which meant I suddenly understand the method to draw and I even just know how to draw before, but I never understood that why I draw in that way. I thought that maybe this was because I have grown up even older and it has become very easy for me to draw. Just after several lessons, I found that the senescent when I drew before.</p>
 <p>During this experience, I decided that I would stick to my hobby in the future even if I will be really busy with my study, I thought that maybe I could understand the meaning quicker if I didn’t give up it for one year. I think it’s a truth for all the matters, insistence is always important for everyone, I will remember it no matter I will do anything in the future.<br><img src="https://s1.ax1x.com/2020/08/22/ddVDuq.jpg" alt="ddVDuq.jpg"><br><img src="https://s1.ax1x.com/2020/08/22/ddZ9Vf.jpg" alt="ddZ9Vf.jpg"></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/22/Summary%20about%20my%20drawing%20courses/" data-id="cl6t2i5ys001agsgte4kxal8o" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Summary-about-different-activities/" rel="tag">Summary about different activities</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-My first IELTS Speaking test" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/08/17/My%20first%20IELTS%20Speaking%20test/" class="article-date">
-  <time datetime="2020-08-17T07:24:28.000Z" itemprop="datePublished">2020-08-17</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/17/My%20first%20IELTS%20Speaking%20test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Christina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Christina">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/17/My%20first%20IELTS%20Speaking%20test/">My first IELTS speaking test</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/08/17/My%20first%20IELTS%20Speaking%20test/" itemprop="url">My first IELTS speaking test</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-08-17T15:24:28+08:00">
+                2020-08-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>I’d like to describe my first IELTS speaking test. I have prepared for my IELTS test for a long time. </p>
+      
+
+      
+        
+          
+            <p>I’d like to describe my first IELTS speaking test. I have prepared for my IELTS test for a long time. </p>
 <p>Although I have taking several mock tests, I haven’t tried a real one before. In addition, there’s a huge difference between the mock exam and the real exam. First, it’s really official and I didn’t know the process of the test before. Second,    I have never had one speaking mock test before with one foreign teacher, so it’s easy for me to feel very nervous. Plus, this time I have to take this exam in the morning, so there’s less time for me to do psychological construction.</p>
 <p>When I got the test center, the process of the exam was so complex, and I was frightened by that. I felt really nervous since I just got into the university where I took the test. I felt that a deer was running in my heart and I felt really bad. In order to let me calm down, I thought I have to do some measures. First, when I got in, I told myself that I can do it, there is no need for me to be afraid of this test, the foreign teachers just the same as Chinese teachers and they are all friendly. I just to have one talk with him not a test at all. I could calm down for some while. However, when I got into the building, all the students were followed the guidance of the teacher to sit outdoor of the classroom where you would take the test. All the students were waiting there until the examiner called them. I waited there for some while and all the students have been in the classroom. This is only me who still sited on the corridor and then the sense of fear came to me again. This time the way to talk to myself was not available. Then, I overcome one new idea immediately. I let myself to take several deep breaths and just look at the floor not the door. In this way, it really helps me slow down my heartbeat. </p>
 <p>As a result, although I couldn’t let myself be calm as I am during the normal days, I could let myself not to be too nervous which would influence my condition during the speaking test. I still felt a little bit nervous during the test, but this didn’t matter too much. I could give out my opinion and talk to the examiner quite fluently. I think that maybe a little bit tension can help me do better in the test.</p>
 <p>I think that although I haven’t known the score I got, I think this test is still meaningful for me. This is the first time I have one speaking test, I’ve developed some tips to help me overcome the psychological problems. I think that the most important isn’t that I got the ways to help myself, but to get the idea that I can overcome all the problems if I try my best. This time if I didn’t help myself, I couldn’t say a word to the examiner just because I’m afraid. If I meet some difficulties in the life, I have to try to overcome and solve it, not to try to escape it. Always try is the best solution.</p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/17/My%20first%20IELTS%20Speaking%20test/" data-id="cl6t2i5yi000ggsgt9yubh316" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Summary-about-different-activities/" rel="tag">Summary about different activities</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post- Stage summary from 7.1 to 7.20 " class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/07/24/%20Stage%20summary%20from%207.1%20to%207.20%20/" class="article-date">
-  <time datetime="2020-07-24T13:36:49.000Z" itemprop="datePublished">2020-07-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/24/%20Stage%20summary%20from%207.1%20to%207.20%20/">Stage summary from 7.1 to 7.20</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>I would like to describe my life in these twenty days, the following summary includes three parts.</p>
-<p>Firstly, I’d like to talk about my results in these days. First of all, in my IELTS study, I continued to do exercises three times a week. I thought this part was normal because I did these exercises as usual. I will have a real IELTS test next month, so I’m preparing for it. During these days, I haven’t found any efforts in my points, I find that I may feel tired because of the longtime exercises, so I have to adjust myself to a better condition. In this way, maybe I can get a better point next month. Secondly, in my school study, I have done some preview sections, I have previewed three chapters of Chemistry, one chapter of Physics and two chapters of Math (Pure1). I have also had two economic lessons and one easy- commentary about a piece of news. Then, I have updated my blog once a week. In addition, I also had three python lessons every week to continue my coding part.</p>
-<p>Then, I’d like to talk about my plan of next twenty days. The most important thing is to pass my IELTS test, I hope this part can be finished soon. I don’t want to delay it for so long time. This will let me more tired and more difficult to pass it. I plan to memory more words to help me cope with speaking and wring part. Next, I plan to continue preview next term’s books. My plan is to preview two chapters of each subject and I think I have to do some exercises. During last twenty days, I haven’t done many exercises because I haven’t learned much about new book. However, I think it’s really an important part of my preview part. In addition, I think I will write another commentary about news next twenty days after taking some lessons. Exercises can help me to consolidate the knowledge, this will help me to do better next term. Then, I plan to continue updating my blog once a week. I will also continue to have python lessons every week. Then, I think I will have a new part next twenty days, I think I will have some activities to enrich myself.</p>
-<p>Summer holiday is one essential part for one year. I have done much in these twenty days and I hope I can do better in next twenties. I think I can plan and control my time in more effective way because actually I have wasted much time in this twenty days.</p>
-
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/24/%20Stage%20summary%20from%207.1%20to%207.20%20/" data-id="cl6t2i5y20000gsgtgdv3amli" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Summary-about-different-activities/" rel="tag">Summary about different activities</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
-
-
-  <nav id="page-nav">
-    
-    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &amp;raquo;</a>
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/">&lt;i class&#x3D;&quot;fa fa-angle-left&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
   </nav>
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
 
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/About-myself/" rel="tag">About myself</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Economics/" rel="tag">Economics</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Notes-of-Reading/" rel="tag">Notes of Reading</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python-and-data/" rel="tag">Python and data</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Summary-about-different-activities/" rel="tag">Summary about different activities</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E5%A4%9A%E8%B0%A2%E5%85%B3%E6%B3%A8%EF%BC%81/" rel="tag">大家好，这是我的第一个博客，多谢关注！</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/About-myself/" style="font-size: 17.5px;">About myself</a> <a href="/tags/Economics/" style="font-size: 12.5px;">Economics</a> <a href="/tags/Notes-of-Reading/" style="font-size: 15px;">Notes of Reading</a> <a href="/tags/Python-and-data/" style="font-size: 15px;">Python and data</a> <a href="/tags/Summary-about-different-activities/" style="font-size: 20px;">Summary about different activities</a> <a href="/tags/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E5%A4%9A%E8%B0%A2%E5%85%B3%E6%B3%A8%EF%BC%81/" style="font-size: 10px;">大家好，这是我的第一个博客，多谢关注！</a>
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Christina</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">32</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">March 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">October 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">September 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">August 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/">May 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
-    </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/07/28/stars%E2%80%98/">Social Networks of movie stars</a>
-          </li>
-        
-          <li>
-            <a href="/2022/07/15/role-model/">role model</a>
-          </li>
-        
-          <li>
-            <a href="/2022/05/28/Subway-lines-prices/">Subway lines&#39; prices system (Python and Excel)</a>
-          </li>
-        
-          <li>
-            <a href="/2022/05/09/Notes%20on%20the%20%E3%80%8ABeauty%20of%20Mathematics%E3%80%8B/">Notes on the 《Beauty of Mathematics》</a>
-          </li>
-        
-          <li>
-            <a href="/2022/03/22/Things-important-for-me/">Things important for me</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Christina</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2022 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
